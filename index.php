@@ -8,7 +8,7 @@
 <body>
 
 <div class="container">
-    <h1>Envía tu Reporte</h1>
+    <h1>Envía tu Reporte 2</h1>
 
     <form id="formReporte" onsubmit="enviarFormulario(event)" enctype="multipart/form-data">
 
