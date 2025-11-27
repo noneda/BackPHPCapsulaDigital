@@ -33,14 +33,14 @@ function save($data, $file) {
                     nombre, 
                     tipo_aporte, 
                     mensaje, 
-                    archivo,
+                    archivo
                 ) VALUES (
                     :name, 
                     :type, 
                     :message, 
-                    :filename,
+                    :filename
                 )";
-        
+                
         $stmt = $db->prepare($sql);
         
         $stmt->execute([
